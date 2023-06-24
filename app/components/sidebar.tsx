@@ -120,10 +120,10 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          WATT ROBOT AI
+          WATT ROBOT AI.
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          机器人编程教育瓦特更专业.
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -157,6 +157,7 @@ export function SideBar(props: { className?: string }) {
       >
         <ChatList narrow={shouldNarrow} />
       </div>
+
 
       <div className={styles["sidebar-tail"]}>
         <div className={styles["sidebar-actions"]}>
